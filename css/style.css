@@ -1,4 +1,30 @@
-h1{
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+    -moz-appearance: number-input;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+h1 {
     display: block;
     width: 50%;
     margin: 0 auto;
@@ -6,6 +32,42 @@ h1{
     background-color: black;
     color: skyblue;
 }
-.calc{
+
+.calc {
     margin: 0 0 0 50px;
+}
+
+.calc .radio .rr {
+    margin: 15px 0 15px 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+.numbers {
+    background-color: skyblue;
+    color: black;
+    width: 50px;
+    border: solid 1px transparent;
+    border-radius: 4px;
+}
+
+.result {
+    background-color: black;
+    color: skyblue;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 0;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+}
+
+.result:hover {
+    color: black;
+    border-color: currentColor;
+    background-color: skyblue;
 }
